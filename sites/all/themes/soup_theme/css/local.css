@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+/* line 13, ../scss/_base.scss */
+body {
+  font-family: "Francois One", sans-serif;
+}
+/* line 15, ../scss/_base.scss */
+body h1 {
+  font-family: "Open Sans Condensed", sans-serif !important;
+}
+
+/* Custom CSS overrides */
+/* line 1, ../scss/partials/_front.scss */
+#logo img {
+  max-height: 8em;
+}
+
+/* line 5, ../scss/partials/_front.scss */
+#header-inside {
+  padding: 0;
+}
+
+/* line 10, ../scss/partials/_front.scss */
+.front .node-main-content {
+  padding-top: 0;
+}
+/* line 12, ../scss/partials/_front.scss */
+.front .node-main-content .field-name-field-hero-image {
+  text-align: center;
+}
+/* line 15, ../scss/partials/_front.scss */
+.front .node-main-content header {
+  padding: 0;
+}
+/* line 20, ../scss/partials/_front.scss */
+.front .node-landing-page header {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  left: 0;
+  padding: 1rem 5rem;
+}
+@media (min-width: 756px) {
+  /* line 20, ../scss/partials/_front.scss */
+  .front .node-landing-page header {
+    left: 12rem;
+    top: 2rem;
+  }
+}
+
+/* line 1, ../scss/partials/_layout.scss */
+#header {
+  background-color: #ebebeb;
+}
+
+/* line 5, ../scss/partials/_layout.scss */
+#site-slogan {
+  font-family: "Open Sans Condensed", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  color: #861619;
+  padding: 5rem 0 0 1rem;
+  font-size: 1em;
+}
+
+/* line 14, ../scss/partials/_layout.scss */
+.node h1 {
+  font-size: 2rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+@media (min-width: 756px) {
+  /* line 14, ../scss/partials/_layout.scss */
+  .node h1 {
+    font-size: 4rem;
+  }
+}
+/* line 22, ../scss/partials/_layout.scss */
+.node h2 {
+  margin-top: .5rem;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 26, ../scss/partials/_layout.scss */
+.node .field-name-body {
+  width: 100%;
+  margin: auto;
+  padding-top: 3rem;
+}
+@media (min-width: 756px) {
+  /* line 26, ../scss/partials/_layout.scss */
+  .node .field-name-body {
+    width: 75%;
+  }
+}
+
+/* line 36, ../scss/partials/_layout.scss */
+#main-navigation ul.main-menu {
+  padding-top: 5rem;
+}

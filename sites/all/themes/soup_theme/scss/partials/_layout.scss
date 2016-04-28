@@ -1,0 +1,39 @@
+#header {
+  background-color: #ebebeb;
+}
+
+#site-slogan {
+  font-family: $open_sans !important;
+  -webkit-font-smoothing: antialiased;
+  color: $red;
+  padding: 5rem 0 0 1rem;
+  font-size: 1em;
+}
+
+.node {
+  h1 {
+    font-size: 2rem;
+    padding-top: 0;
+    margin-top: 0;
+    @include breakpoint($tablet) {
+      font-size: 4rem;
+    }
+  }
+  h2 {
+    margin-top: .5rem;
+    -webkit-font-smoothing: antialiased;
+  }
+  .field-name-body {
+    width: 100%;
+    margin: auto;
+    padding-top: 3rem;
+    @include breakpoint($tablet) {
+      width: 75%;
+    }
+  }
+}
+#main-navigation {
+  ul.main-menu {
+    padding-top: 5rem;
+  }
+}

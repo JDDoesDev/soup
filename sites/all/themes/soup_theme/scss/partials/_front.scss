@@ -1,0 +1,31 @@
+#logo img {
+  max-height: 8em;
+}
+
+#header-inside {
+  padding: 0;
+}
+
+.front {
+  .node-main-content {
+    padding-top: 0;
+    .field-name-field-hero-image {
+      text-align: center;
+    }
+    header {
+      padding: 0;
+    }
+  }
+  .node-landing-page {
+    header {
+      position: absolute;
+      background-color: rgba(255,255,255,0.7);
+      left: 0;
+      padding: 1rem 5rem;
+      @include breakpoint($tablet) {
+        left: 12rem;
+        top: 2rem;
+      }
+    }
+  }
+}
